@@ -4,12 +4,12 @@ Udacity
 ST101 - Statistics
 --------------------
 + started_on: 25th June 2012
-+ now_at: 4.1
++ now_at: Problem Set1
 
 CS258 - Software Testing
 ---------------------
 + started_on: 27th June 2012
-+ now_at: 1.11
++ now_at: 1.12
 
 CS373 - Artificial Intelligence
 ---------------------------------

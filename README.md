@@ -26,4 +26,5 @@ Human Computer Interaction (HCI)
 Books
 =====
 + Python Testing - Daniel Arbuckle
+    + now_at: 103 (ch6)
 + Introduction to Neural Networks for Java - Jeff Heaton (http://www.jeffheaton.com/ai/)

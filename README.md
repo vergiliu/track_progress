@@ -15,7 +15,15 @@ Udacity - Statistics (ST101)
 Udacity - How to build a startup (EP245)
 ---------------
 + started_on: 01 oct 2012
-+ on: 02 oct 2012 - 1.5b
+    + Phase 1 - Get ready to sell
+        + MVP - minimum viable product
+        + Identify customers and markets avail.
+        + JersaySquare example
++ on: 02 oct 2012 - Lecture 1.5b
++ on: 04 oct 2012 - Lecture 2
++ Reading recommendations:
+    + Startup Owner's Manual
+    + Business Model Generation
 
 Coursera - Neural Networks for ML
 ---------------

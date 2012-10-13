@@ -1,16 +1,12 @@
 Courses
 ===============
 
-Coursera - Human Computer Interaction (HCI)
----------------
-+ started_on: 01 jun 2012
-+ now_at: 5.1 (week 3)
-
 Udacity - Statistics (ST101)
 ---------------
 + started_on: 25 jun 2012
 + on: 01 Aug 2012 - 08 BRule
 + now_at: 4.1
++ goal: 2013
 
 Udacity - How to build a startup (EP245)
 ---------------
@@ -24,10 +20,16 @@ Udacity - How to build a startup (EP245)
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation
++ goal: 2013
 
 Coursera - Neural Networks for ML
 ---------------
 + enrolled_on: 03 oct 2012
+
+Codecademy - Python track
+---------------
++ started_on: 10 Oct 2012
++ on: 13 Oct 2012 - 3.1 / 8
 
 Books
 ===============
@@ -40,6 +42,18 @@ Books
     + started_on: 01 oct 2012
     + on: 02 Oct 2012 - pg. 8
     + now_at: pg. 8
++ The Lean Startup
+    + goal: 2013
+
+Finished
+===============
+Coursera - Human Computer Interaction (HCI)
+---------------
++ started_on: 01 jun 2012
++ now_at: 5.1 (week 3)
++ overall: 7/10
++ finished_on: 13 Oct 2012
+
     
 Currently paused / postponed / cancelled
 ===============
@@ -54,4 +68,5 @@ CS373 - Artificial Intelligence
 ---------------
 + started_on: 01 nov 2011
 + paused
++ goal: 2013
 

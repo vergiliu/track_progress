@@ -13,10 +13,20 @@ Udacity - How to build a startup (EP245)
 + started_on: 01 oct 2012
     + Phase 1 - Get ready to sell
         + MVP - minimum viable product
+            + meets minimal customer needs
         + Identify customers and markets avail.
         + JersaySquare example
 + on: 02 oct 2012 - Lecture 1.5b
 + on: 04 oct 2012 - Lecture 2
++ on: 13 Oct 2012 - Lecture 2.21
+        + Value Proposition - satisfying a customer need
+            + solve a pain & create a gain => MVP
+            + product market fit at the intersection of prod/market
+            + keep in mind to "get out of the building"
+        + Customer Segment or market
+            + model the product'st "Persona"
+            + create Pain Killers - problem vs need
+            + depending on market web/physical/etc you need a model to get feedback on your solution
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation
@@ -30,6 +40,7 @@ Codecademy - Python track
 ---------------
 + started_on: 10 Oct 2012
 + on: 13 Oct 2012 - 3.1 / 8
++ on: 15 Oct 2012 - 4 / 8
 
 Books
 ===============

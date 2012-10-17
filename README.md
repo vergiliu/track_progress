@@ -27,6 +27,10 @@ Udacity - How to build a startup (EP245)
             + model the product'st "Persona"
             + create Pain Killers - problem vs need
             + depending on market web/physical/etc you need a model to get feedback on your solution
++on: 14 Oct 2012 - Lecture 3.1
+            + Value proposition - why hasn't it been solved yet?
+            + ayasdi - tech insight / twitter - market insight
+        + Customer segments
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation

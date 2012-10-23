@@ -30,7 +30,7 @@ Udacity - How to build a startup (EP245)
 +on: 14 Oct 2012 - Lecture 3.1
             + Value proposition - why hasn't it been solved yet?
             + ayasdi - tech insight / twitter - market insight
-+on: 23 Oct 2012 - Lecture 3.16
++on: 23 Oct 2012 - Lecture 4.1
         + Customer segments
             + understand whom are the people who might buy your product
             + there might different segments available
@@ -44,6 +44,9 @@ Udacity - How to build a startup (EP245)
             + 2 sided market, e.g. google - searching users / paying advertisers
             + 4 types of startups: existing market, resegment market, new , clone
                 + changes everything: initial costs, market size, sales model
+            + chasm between early adopters and mainstream market depending on startup type
+                + wider depending on market type
+            + revenue stream for each value proposition
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation

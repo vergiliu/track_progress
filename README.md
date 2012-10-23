@@ -15,38 +15,38 @@ Udacity - How to build a startup (EP245)
         + MVP - minimum viable product
             + meets minimal customer needs
         + Identify customers and markets avail.
-        + JersaySquare example
+        + JerseySquare example
 + on: 02 oct 2012 - Lecture 1.5b
 + on: 04 oct 2012 - Lecture 2
 + on: 13 Oct 2012 - Lecture 2.21
-        + Value Proposition - satisfying a customer need
-            + solve a pain & create a gain => MVP
-            + product market fit at the intersection of prod/market
-            + keep in mind to "get out of the building"
-        + Customer Segment or market
-            + model the product'st "Persona"
-            + create Pain Killers - problem vs need
-            + depending on market web/physical/etc you need a model to get feedback on your solution
+    + Value Proposition - satisfying a customer need
+        + solve a pain & create a gain => MVP
+        + product market fit at the intersection of prod/market
+        + keep in mind to "get out of the building"
+    + Customer Segment or market
+        + model the product'st "Persona"
+        + create Pain Killers - problem vs need
+        + depending on market web/physical/etc you need a model to get feedback on your solution
+        + Value proposition - why hasn't it been solved yet?
+        + ayasdi - tech insight / twitter - market insight
 +on: 14 Oct 2012 - Lecture 3.1
-            + Value proposition - why hasn't it been solved yet?
-            + ayasdi - tech insight / twitter - market insight
 +on: 23 Oct 2012 - Lecture 4.1
-        + Customer segments
-            + understand whom are the people who might buy your product
-            + there might different segments available
-            + create a "day in the life" of a customer for a persona
-            + customer gains - list of what can they win by using your product
-            + you have to validate some of your hypothesis
-            + customer pains - opposite version of gains, need to understand it
-            + know everything about your customers - create a customer persona
-            + who's the customer - in context - payer might be a different person
-            + B2B present less chances to get useful survey results compared to B2C
-            + 2 sided market, e.g. google - searching users / paying advertisers
-            + 4 types of startups: existing market, resegment market, new , clone
-                + changes everything: initial costs, market size, sales model
-            + chasm between early adopters and mainstream market depending on startup type
-                + wider depending on market type
-            + revenue stream for each value proposition
+    + Customer segments
+        + understand whom are the people who might buy your product
+        + there might different segments available
+        + create a "day in the life" of a customer for a persona
+        + customer gains - list of what can they win by using your product
+        + you have to validate some of your hypothesis
+        + customer pains - opposite version of gains, need to understand it
+        + know everything about your customers - create a customer persona
+        + who's the customer - in context - payer might be a different person
+        + B2B present less chances to get useful survey results compared to B2C
+        + 2 sided market, e.g. google - searching users / paying advertisers
+        + 4 types of startups: existing market, resegment market, new , clone
+            + changes everything: initial costs, market size, sales model
+        + chasm between early adopters and mainstream market depending on startup type
+            + wider depending on market type
+        + revenue stream for each value proposition
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation

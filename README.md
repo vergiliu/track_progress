@@ -1,4 +1,4 @@
-udaCourses
+Courses
 ===============
 
 Udacity - Statistics (ST101)
@@ -102,11 +102,13 @@ Codecademy - Python track
 + started_on: 10 Oct 2012
 + on: 13 Oct 2012 - 3.1 / 8
 + on: 15 Oct 2012 - 4 / 8
-    universal imports - from module import *
-    function import - from module import function
-    import - import module
+    + universal imports - from module import *
+    + function import - from module import function
+    + import - import module
 + on: 1 Nov 2012 - 4.4 / 8
 + on: 6 Nov 2012 - 5.1 / 8
+
+
 Books
 ===============
 + Python Testing - Daniel Arbuckle
@@ -120,6 +122,7 @@ Books
     + now_at: pg. 8
 + The Lean Startup
     + goal: 2013
+
 
 Finished
 ===============

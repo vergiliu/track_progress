@@ -75,11 +75,22 @@ Udacity - How to build a startup (EP245)
         +  grow for web: lifetime value (LTV), how much will they spend from get/keep/grow, we must have LTV > CAC
         + ideally LTV should be (much) higher than CAC
 + on: 6 Nov 2012 - Lecture 6.1
-
+    + Common mistakes
+        + revenue stream *IS NOT* the price, and a lower price than competition is not necessary needed
+        + it must be driven by the customers
+        + *pricing must be based on value and not cost*, customer should feel that
+    + Revenue stream: the _strategy_ of the company to generate _cash_ from each customer segment
+        + each revenue stream may get different pricing tactics
+    + Pricing: the tactics used to set the prices
+        + fixed: value based on customer segment, based on volume, cost + mark-update
+        + dynamic: negotiable, based on yield, auctions
+        + depending on your customers, get out of the building :)
+    + Fee: proportional to the usage of the service / flat fee to access to service / licensing - fee for use IP
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation
     + The Innovator Dillema / The Innovator Solution
++ on: 7 Nov 2012 - Lecture 6.10
 + goal: 2013
 
 Coursera - Neural Networks for ML

@@ -86,11 +86,27 @@ Udacity - How to build a startup (EP245)
         + dynamic: negotiable, based on yield, auctions
         + depending on your customers, get out of the building :)
     + Fee: proportional to the usage of the service / flat fee to access to service / licensing - fee for use IP
++ on: 7 Nov 2012 - Lecture 6.10
+    + Market types affects pricing
+        + how will the competition react, can we undercut them?
+        + what are their costs    
+    + Single/multi-sided market: e.g. Google - cares about users first, revenues second
+        + for a physical channel, go for both at the same time
+        + for multi-sided market, talk to the _payers_ not only the users
+    + "revenue first" companies - focusing on revenue more than others
+    + "Hockey stick" - startups in a new market, flat revenue initially, then after an inflexion point, exponential growth
+        + 1st year bump - due to early adopters
+    + "draw the diagram" on how you'll be making money
+    + key revenue model questions
+        + what are the customers paying for and how is easy is for them to keep paying
+        + _don't put all features in the initial product_ (packaging)
+        + estimate the market size: CAC, LTV, how many units will you selling
+    + get feedback from customers 100 web / 10 non-web
++ on:11 Nov 2012 - Lecture 7.1 - Partners
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation
     + The Innovator Dillema / The Innovator Solution
-+ on: 7 Nov 2012 - Lecture 6.10
 + goal: 2013
 
 Coursera - Neural Networks for ML
@@ -102,7 +118,7 @@ Codecademy - Python track
 + started_on: 10 Oct 2012
 + on: 13 Oct 2012 - 3.1 / 8
 + on: 15 Oct 2012 - 4 / 8
-    + universal imports - from module import *
+    + universal imports - from module import <star>
     + function import - from module import function
     + import - import module
 + on: 1 Nov 2012 - 4.4 / 8
@@ -118,8 +134,7 @@ Books
     + now_at: ???
 + Don't Make Me Think - Steve Kruger
     + started_on: 01 oct 2012
-    + on: 02 Oct 2012 - pg. 8
-    + now_at: pg. 8
+    + finished_on: 
 + The Lean Startup
     + goal: 2013
 

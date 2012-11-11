@@ -109,6 +109,20 @@ Udacity - How to build a startup (EP245)
     + The Innovator Dillema / The Innovator Solution
 + goal: 2013
 
+Udacity - Software Testing (CS258)
+---------------
++ started_on: 27 jun 2012
++ on: 27 Jun 2012 - 1.11
+    + python -O : optimize, disable assertions
+    + valgrind: always assertions are enabled, about 5% of time looks ok
+    + nasa: most phases w/ assertions, landing assertions disabled
+    + try to test w/ values sampled from entire domain
+    + domain restrictions are acceptable as long as they are documented
+    + for OSes we should test all values even if it's outside the specs (e.g. negative vals for >0 reqs.)
+    + same for GUIs, the same trust boundary is present, which needs testing
++ on: 11 Nov 2012 - 1.23
++ not on goal2013
+
 Coursera - Neural Networks for ML
 ---------------
 + enrolled_on: 03 oct 2012
@@ -131,7 +145,7 @@ Books
     + now_at: 103 (ch6)
 + Introduction to Neural Networks for Java - Jeff Heaton (http://www.jeffheaton.com/ai/)
     + started_on: 01 jan 2012
-    + now_at: ???
+    + paused
 + Don't Make Me Think - Steve Kruger
     + started_on: 01 oct 2012
     + finished_on: 
@@ -151,12 +165,6 @@ Coursera - Human Computer Interaction (HCI)
     
 Currently paused / postponed / cancelled
 ===============
-
-CS258 - Software Testing
----------------
-+ started_on: 27 jun 2012
-+ now_at: 1.11
-+ paused
 
 CS373 - Artificial Intelligence
 ---------------

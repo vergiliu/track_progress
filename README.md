@@ -103,11 +103,50 @@ Udacity - How to build a startup (EP245)
         + estimate the market size: CAC, LTV, how many units will you selling
     + get feedback from customers 100 web / 10 non-web
 + on:11 Nov 2012 - Lecture 7.1 - Partners
+    + Partners: what type of relationships you need to have with them
+    + shared economics, what's in it for your partner / mutual success & failure
+    + working together with others to help build your company
+    + strategic alliance: use partner to build a "whole product", using 3rd parties to provide solution to customers
+    + greatest strategic alliance: iPod (apple + record labels)
+    + joint business development: intel + OEMs => intel inside,  promotion and ads programs
+    + in new market no need for "earlyvangelists", as most tend to fail
+    + coopetition: to do something jointly for their industry (tradeshows, associations)
+    + key suppliers: outsource part of company to 3rd party - backoffice, manufacture
+    + virtual channels/traffic partners: deliver predictable levels of customers (web)
+    + risks: e.g. Boeing building 787 - outsource all manufacturing, supply chain too scattered - decisions made by accountants and not engineers
+    + risks: longest of their decision schedule is yours now as well; no clear ownership of the customers; products lacks vision; difficult to unwind or end
+    + investments from large companies: "what's in it for us?" - buy us without (investing) money
+        + who's the sponsor? and what's the motivation?
+    + understand that you're not a PEER to large companies
+    + partners can be a potential acquirer
+    + try to understand if customers want you to have partnerships
++ on 12 Nov 2012 - Lecture 8 - Resources, Activities and Costs
+    + most important assets: finance / money, IP, physical resources, human resources
+    + 4 critical: physical, human, financial, intellectual
+        + physical goods are capital intensive, how to scale
+        + easy to start-up, especially in softare, some rough calculations on capital invested vs. possible gains
+            + VC in both operating and financing phases, angels, friends and kickstarter in financing phase only
+            + lease-lines/factoring only in operating mode
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation
     + The Innovator Dillema / The Innovator Solution
 + goal: 2013
+
+Udacity - Software Testing (CS258)
+---------------
++ started_on: 27 jun 2012
++ on: 27 Jun 2012 - 1.11
+    + python -O : optimize, disable assertions
+    + valgrind: always assertions are enabled, about 5% of time looks ok
+    + nasa: most phases w/ assertions, landing assertions disabled
+    + try to test w/ values sampled from entire domain
+    + domain restrictions are acceptable as long as they are documented
+    + for OSes we should test all values even if it's outside the specs (e.g. negative vals for >0 reqs.)
+    + same for GUIs, the same trust boundary is present, which needs testing
++ on: 11 Nov 2012 - 1.23
+    + use defensive coding, trying to prevent corner cases/errors
++ not on goal2013
 
 Coursera - Neural Networks for ML
 ---------------
@@ -123,7 +162,7 @@ Codecademy - Python track
     + import - import module
 + on: 1 Nov 2012 - 4.4 / 8
 + on: 6 Nov 2012 - 5.1 / 8
-
++ on: 12 Nov 2012 - 6.1 / 8
 
 Books
 ===============
@@ -131,7 +170,7 @@ Books
     + now_at: 103 (ch6)
 + Introduction to Neural Networks for Java - Jeff Heaton (http://www.jeffheaton.com/ai/)
     + started_on: 01 jan 2012
-    + now_at: ???
+    + paused
 + Don't Make Me Think - Steve Kruger
     + started_on: 01 oct 2012
     + finished_on: 
@@ -151,12 +190,6 @@ Coursera - Human Computer Interaction (HCI)
     
 Currently paused / postponed / cancelled
 ===============
-
-CS258 - Software Testing
----------------
-+ started_on: 27 jun 2012
-+ now_at: 1.11
-+ paused
 
 CS373 - Artificial Intelligence
 ---------------

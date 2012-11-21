@@ -173,7 +173,7 @@ Books
     + paused
 + Don't Make Me Think - Steve Kruger
     + started_on: 01 oct 2012
-    + finished_on: 
+    + finished_on: 20 Nov 2012
 + The Lean Startup
     + goal: 2013
 

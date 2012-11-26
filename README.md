@@ -127,6 +127,15 @@ Udacity - How to build a startup (EP245)
         + easy to start-up, especially in softare, some rough calculations on capital invested vs. possible gains
             + VC in both operating and financing phases, angels, friends and kickstarter in financing phase only
             + lease-lines/factoring only in operating mode
++ on 26 Nov 2012- Lecture 8
+    + HR: teacher: learn about a subject, improve a skill - coach, mentor - giving and taking advice
+    + always hire people better than you!
+    + IP: trademark - you can protect branding (marks, logos), copyright the 'creative work', contract/NDA, patent the 'inventions'
+    + Costs (alywas < Revenue) in-sync w/ investors from day 1
+        + fixed costs: building, employees - every month, don't move
+        + what are the most important cost to operate the business
+        + startups search for the execution metrics, but you *need to first understand the metrics that matter*
+        + burn rate - how much money are spent per month
 + Reading recommendations:
     + Startup Owner's Manual
     + Business Model Generation

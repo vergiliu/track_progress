@@ -173,8 +173,10 @@ Codecademy - Python track
 + on: 6 Nov 2012 - 5.1 / 8
 + on: 12 Nov 2012 - 6.1 / 8
 + on: 23 Dec 2012 - 8.1 / 12
-    + while/else construct
+    + while/else, for/else construct - only when terminated w/o break
     + enumerate(array)
+    + a, b, ... = zip(list1, list2, ...) - iterate over multiple lists at once
+    + char in 'string' - correct syntax
 
 Books
 ===============

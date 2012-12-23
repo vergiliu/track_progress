@@ -172,6 +172,9 @@ Codecademy - Python track
 + on: 1 Nov 2012 - 4.4 / 8
 + on: 6 Nov 2012 - 5.1 / 8
 + on: 12 Nov 2012 - 6.1 / 8
++ on: 23 Dec 2012 - 8.1 / 12
+    + while/else construct
+    + enumerate(array)
 
 Books
 ===============

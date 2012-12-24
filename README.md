@@ -157,6 +157,12 @@ Udacity - Software Testing (CS258)
     + use defensive coding, trying to prevent corner cases/errors
 + not on goal2013
 
+Coursera - HPP
+---------------
+* SM is dividing a thread block in 32 thread warps
+* 16x16 threads/block => 6 thread blocks => 1536 theads for Fermi
+* CUDA 3.0 supports up to 1024threads/SM
+
 Coursera - Neural Networks for ML
 ---------------
 + enrolled_on: 03 oct 2012

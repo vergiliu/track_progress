@@ -162,6 +162,16 @@ Coursera - HPP
 * SM is dividing a thread block in 32 thread warps
 * 16x16 threads/block => 6 thread blocks => 1536 theads for Fermi
 * CUDA 3.0 supports up to 1024threads/SM
+* SIMD - same instruction on multiple data sets
+* control divergence when condition contains threadIdx
+* memory coalescing when a burst read is equal to a `tile' width => optimal memory bw utilization
+    * corner turning - when copying from global to scratch memory, no penalty after end of copy using bursts
+    * shared memory - SRAM - no need for bursting
+* arbitrary sizes for tiling of processing of the elements
+* operations need to be independent of each other (associative and commutative)
+* privatization - multiple threads write in output, use a reduction tree to merge the results in a single version
+* reduction computation - has identity value (e.g. 0 for sum, 1 for product) and is assoc. and commutative
+* avg. parallelism (N-1)/ log(N) for reduction tree - comparable to an efficient algo.
 
 Coursera - Neural Networks for ML
 ---------------

@@ -199,6 +199,7 @@ Codecademy - Python track
     + list_for_input=['1','2','3','4']
     + filter(lambda var: var == "3", list_for_input)
 + bin() to get binary representation of values
+    + XOR (^) to flip bits using all 1's
 
 Books
 ===============

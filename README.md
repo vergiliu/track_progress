@@ -193,6 +193,12 @@ Codecademy - Python track
     + enumerate(array)
     + a, b, ... = zip(list1, list2, ...) - iterate over multiple lists at once
     + char in 'string' - correct syntax
++ list comprehension [ j**2 for j in range(10) if (j+1) % 2 == 0 ] # squares of odd numbers < 10
++ list slicing array[start:end:stride]
++ lambda functions
+    + list_for_input=['1','2','3','4']
+    + filter(lambda var: var == "3", list_for_input)
++ bin() to get binary representation of values
 
 Books
 ===============

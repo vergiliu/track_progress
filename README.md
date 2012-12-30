@@ -200,6 +200,9 @@ Codecademy - Python track
     + filter(lambda var: var == "3", list_for_input)
 + bin() to get binary representation of values
     + XOR (^) to flip bits using all 1's
++ class SUPER(): [...]
+    + class SubClass(SUPER): [...]
+    + override: super(SubClass, self).SUPER_method(params)
 
 Books
 ===============

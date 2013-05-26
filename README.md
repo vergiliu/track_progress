@@ -47,6 +47,13 @@ Udacity - How to build a startup (EP245)
         + chasm between early adopters and mainstream market depending on startup type
             + wider depending on market type
         + revenue stream for each value proposition
+		+ first customers for startups are just crazy people like you
+		+ 85-90% features are unwanted & un-needed by customers
+		+ most fail due to a lack of customers not because of the product (also: vision, founders fight 1/4, too expensive to fund)
+		+ founders spend 20% of their time w/ customers
+		+ [4] distribution channels:
+			+ virtual / physical 2x2 matrix: 2,2 twitter, 1,2 amazon 2,1 ERP 1,1 cars
+		 	+ most successful startups pick only one distribution channel, at least initially
 + on: 1 nov 2012 - Lecture 4.5
     + physical distribution channel (4.5) 
     + solution complexity: system integrators - handle the most complex solutions > Direct Sales > VAR > Retail > Web

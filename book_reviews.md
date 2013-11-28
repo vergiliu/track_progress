@@ -1,3 +1,12 @@
+Learning Python 5th edition [nov2013-]
+Chapter 3 - basic intro, running scripts, exec, open, reload
+Chapter 4 
+- basic data types
+- immutability (strings, numbers, tuples)
+- help, dir functions
+- raw strings r'C:\text\', bytes b''
+- lists and list comprehension
+
 Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story 
 involving a deadly gas, drugs, leather and a cloudy and misty atmosphere. 

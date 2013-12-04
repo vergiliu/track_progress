@@ -1,20 +1,46 @@
-Learning Python 5th edition [nov2013-]
-Chapter 3 - basic intro, running scripts, exec, open, reload
-Chapter 4 
+###Learning Python 5th edition [nov2013-]
+#####Chapter 3 
+- basic intro, running scripts, exec, open, reload
+
+#####Chapter 4 
 - basic data types
 - immutability (strings, numbers, tuples)
 - help, dir functions
 - raw strings r'C:\text\', bytes b''
 - lists and list comprehension
+- tuples immutable (see as read-only)
 
-Boneshaker by Christie Priest [aug2012-oct2012]
-In an approximate version of the Seattle gold rush, a true steampunk story 
+#####Chapter 5
+- floor division //
+- '{} or {0} string'.format()
+- random.random, random.randint(a, b), random.choice(['a', 'b', 'c']), random.shuffle)
+- Decimal, Fraction (limit_denominator)
+- int('0xbo0-f', base_2_8_16) to convert string to int in a specific base
+- Sets {1, 2, 3}
+- must be explicitly created
+- can contain only immutable/hashable elements
+- frozensets can contain any type of object
+
+#####Chapter 6
+- types live with objects not variables
+- everything is garbage collected using reference counting, at the point when there are no references
+- as variables might point to the same object, changing the object in-place (only for mutable objects), might affect more variables **always use X.copy()**
+ - use copy or deepcopy from the copy module to achieve this
+ - testing for same object *A is B*, also one can use sys.getrefcount(A) to see references to this object
+ 
+#####Chapter 7 - Strings
+- encode decode format() r'rawstrings' b'bytestrings' u'unicode\u022'
+- triple quotes or block strings used for comments or multi-line strings
+
+###Boneshaker by Christie Priest [aug2012-oct2012]
+In an approximate version of the Seattle gold rush, a true steampunk story
 involving a deadly gas, drugs, leather and a cloudy and misty atmosphere. 
 Did I mention zombies? Or airships powered by steam? 
-Overall a nice and short read with a good story. Rating 4.5/5
+Overall a nice and short read with a good story. Rating 4/5
 
-Don't Make Me Think by Steve Krug [oct2012]
+###Don't Make Me Think by Steve Krug [oct2012]
 The "bible" of web usability in its second incarnation. A couple of ideas or reminders from the book:
+
 + Make the site natural to the user and his actions
 + Build billboards not newspapers
 + Make stuff visible and easy to determine what's its function to the user
@@ -31,6 +57,6 @@ The "bible" of web usability in its second incarnation. A couple of ideas or rem
 + ask the tester to do some specific tasks besides 
 + After the walkthroughs review/go over the notes as soon as possible
 
-The Lean Startup by [jan2013-]
+###The Lean Startup by [jan2013-may2013]
 + Going after a couple of ideas of what make a startup tick, and how can you avoid falling in the most common pitfals of the startup movement.
 + Talking about `validated learning' where all the steps you take are directed by input coming from the customers and not from the bussiness owners. A couple of examples presented like the IMVU service, the laundry in India, or Kodak photo share which all started with a basic product, and improving that by getting input from customers instead of having a plan before going to market.

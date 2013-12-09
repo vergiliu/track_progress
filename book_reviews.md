@@ -25,12 +25,30 @@
 - types live with objects not variables
 - everything is garbage collected using reference counting, at the point when there are no references
 - as variables might point to the same object, changing the object in-place (only for mutable objects), might affect more variables **always use X.copy()**
- - use copy or deepcopy from the copy module to achieve this
- - testing for same object *A is B*, also one can use sys.getrefcount(A) to see references to this object
+  - use copy or deepcopy from the copy module to achieve this
+  - testing for same object *A is B*, also one can use sys.getrefcount(A) to see references to this object
  
 #####Chapter 7 - Strings
 - encode decode format() r'rawstrings' b'bytestrings' u'unicode\u022'
 - triple quotes or block strings used for comments or multi-line strings
+- we can test for string_a in string_b
+- int() chr() ord() for int/char/string conversion
+- string formatting % always makes a new string when printing
+  - print("string is %(named)d" % {'named': 'long'})
+  - '{motto}, {0} and {food}'.format(42, motto=3.14, food=[1, 2])
+  - '{}, {} and {}'.format('a', 'b', 'c')
+  - 'My %(kind)s runs %(platform)s' % dict(kind='laptop', platform=sys.platform)
+
+#####Chapter 8 - Lists and dictionaries
+ - lists: mutable, sub-nesting, accessed by offset, heterogeneous
+ - list comprehension [c*2 for c in 'MONKEY']
+ 	- map does a similar thing, applying a function to a list(map(abs, [-1, -2, 1, 2, 3]))
+ - slice assignment a_list[0:2] = ['one', 'two']
+ 	- [1, 2, 'spam'].sort() fails in python3 but works in 2.x
+ - extends adds many elements, append only one
+ - del(x[element]) deletes one or more elements
+ - dictionaries: accessed by key, mutable, heterogenous, variable length
+
 
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story

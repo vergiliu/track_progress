@@ -54,11 +54,22 @@
     - has_key is deprecated in python3, use _**in**_ instead
     - dictionary comprehension {k: v for (k,v) in zip([1,2], ['a', 'b'])} or  Dict = {k: None for k in 'spam'}
     - items, keys and values() are now views and not elements
-    	- can be sorted using **sorted(Iterable)**, which works for more types
+ - _can be sorted using **sorted(Iterable)**, which works for more any iterable_
 
 #####Chapter 9 - tuples, files, ...
-- tuple: ordered collections of 
-
+- tuple: ordered collections of elements, immutable, accessed by offset, can be seen as arrays of object references
+    - the objects contained in tuples can be changed
+    - namedtuples in collections module: 
+    	- Object = namedtuple('Name', ['structure', 'field'])
+    	- instance = Object('Bob', 11.23)
+- Files are buffered, we need to call flush or close to make sure everything is persisted
+	- in python3 there's a clearer distinction between binary and text (including unicode) files
+	- pickle is sort of a serialization basic function
+	- there is also a **struct** module for handling C like structs
+	- in pyhon2 there is also file() as well as open(), in py3 only open remained
+	- elements inside objects can be referneced by other objects so we need to be careful to work with copies if we need not to alter the originals, use slicing copy()/deepcopy() or create new objects
+	- we should not check for type(object) as it limits functionality
+	
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story
 involving a deadly gas, drugs, leather and a cloudy and misty atmosphere. 

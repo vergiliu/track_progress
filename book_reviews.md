@@ -69,6 +69,9 @@
 	- in pyhon2 there is also file() as well as open(), in py3 only open remained
 	- elements inside objects can be referneced by other objects so we need to be careful to work with copies if we need not to alter the originals, use slicing copy()/deepcopy() or create new objects
 	- we should not check for type(object) as it limits functionality
+#####Chapter 10/11
+ - intro to indentation and some pythonic rules :)
+ - try: except: clause
 	
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story

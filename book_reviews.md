@@ -48,7 +48,16 @@
  - extends adds many elements, append only one
  - del(x[element]) deletes one or more elements
  - dictionaries: accessed by key, mutable, heterogenous, variable length
+    - for key in Dict | (key, value) in Dict.items()
+    - any immutable (object) can be a key in a dictionary
+    - dict(zip(keys, values)) to quickly create a dictionary
+    - has_key is deprecated in python3, use _**in**_ instead
+    - dictionary comprehension {k: v for (k,v) in zip([1,2], ['a', 'b'])} or  Dict = {k: None for k in 'spam'}
+    - items, keys and values() are now views and not elements
+    	- can be sorted using **sorted(Iterable)**, which works for more types
 
+#####Chapter 9 - tuples, files, ...
+- tuple: ordered collections of 
 
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story

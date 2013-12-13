@@ -1,15 +1,13 @@
 ###Learning Python 5th edition [nov2013-]
-#####Chapter 3 
+   - ebook
+#####Chapter1-4
 - basic intro, running scripts, exec, open, reload
-
-#####Chapter 4 
 - basic data types
 - immutability (strings, numbers, tuples)
 - help, dir functions
 - raw strings r'C:\text\', bytes b''
 - lists and list comprehension
 - tuples immutable (see as read-only)
-
 #####Chapter 5
 - floor division //
 - '{} or {0} string'.format()
@@ -20,25 +18,22 @@
 - must be explicitly created
 - can contain only immutable/hashable elements
 - frozensets can contain any type of object
-
 #####Chapter 6
 - types live with objects not variables
 - everything is garbage collected using reference counting, at the point when there are no references
 - as variables might point to the same object, changing the object in-place (only for mutable objects), might affect more variables **always use X.copy()**
   - use copy or deepcopy from the copy module to achieve this
-  - testing for same object *A is B*, also one can use sys.getrefcount(A) to see references to this object
- 
+- testing for same object *A is B*, also one can use sys.getrefcount(A) to see references to this object
 #####Chapter 7 - Strings
 - encode decode format() r'rawstrings' b'bytestrings' u'unicode\u022'
 - triple quotes or block strings used for comments or multi-line strings
 - we can test for string_a in string_b
-- int() chr() ord() for int/char/string conversion
 - string formatting % always makes a new string when printing
   - print("string is %(named)d" % {'named': 'long'})
   - '{motto}, {0} and {food}'.format(42, motto=3.14, food=[1, 2])
   - '{}, {} and {}'.format('a', 'b', 'c')
   - 'My %(kind)s runs %(platform)s' % dict(kind='laptop', platform=sys.platform)
-
+- int() chr() ord() for int/char/string conversion
 #####Chapter 8 - Lists and dictionaries
  - lists: mutable, sub-nesting, accessed by offset, heterogeneous
  - list comprehension [c*2 for c in 'MONKEY']
@@ -55,7 +50,6 @@
     - dictionary comprehension {k: v for (k,v) in zip([1,2], ['a', 'b'])} or  Dict = {k: None for k in 'spam'}
     - items, keys and values() are now views and not elements
  - _can be sorted using **sorted(Iterable)**, which works for more any iterable_
-
 #####Chapter 9 - tuples, files, ...
 - tuple: ordered collections of elements, immutable, accessed by offset, can be seen as arrays of object references
     - the objects contained in tuples can be changed
@@ -67,11 +61,13 @@
 	- pickle is sort of a serialization basic function
 	- there is also a **struct** module for handling C like structs
 	- in pyhon2 there is also file() as well as open(), in py3 only open remained
-	- elements inside objects can be referneced by other objects so we need to be careful to work with copies if we need not to alter the originals, use slicing copy()/deepcopy() or create new objects
-	- we should not check for type(object) as it limits functionality
+- elements inside objects can be referneced by other objects so we need to be careful to work with copies if we need not to alter the originals, use slicing copy()/deepcopy() or create new objects
+- we should not check for type(object) as it limits functionality
 #####Chapter 10/11
  - intro to indentation and some pythonic rules :)
  - try: except: clause
+ - **print([object, ...][, sep=' '][, end='\n'][, file=sys.stdout][, flush=False])** for python3
+ - a
 	
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story

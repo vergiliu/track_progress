@@ -63,11 +63,16 @@
 	- in pyhon2 there is also file() as well as open(), in py3 only open remained
 - elements inside objects can be referneced by other objects so we need to be careful to work with copies if we need not to alter the originals, use slicing copy()/deepcopy() or create new objects
 - we should not check for type(object) as it limits functionality
-#####Chapter 10/11
+#####Chapter 10-13
  - intro to indentation and some pythonic rules :)
  - try: except: clause
  - **print([object, ...][, sep=' '][, end='\n'][, file=sys.stdout][, flush=False])** for python3
- - a
+ - stream redirection (stdout, stderr), easiest is through assignment sys.stdout = open('file', 'w')
+ - ellipsis can be used instead of pass **def to_be_implemented(): ...**
+     - valid only in python3
+ - 2 or 3, 3 or 2, 2 and 3, 2 and []
+ - ternary expression Z = A if Condition else B
+ - while conditions: (...) else: (...) _# if no break was encountered_
 	
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story

@@ -1,3 +1,6 @@
+##Drawing on the right side of the brain[2013-]
+The author goes over some (non scientifically) proven concepts that one brain hemisphere is dedicated to different things LEFT for science and the RIGHT for arts. And as an intro makes you do your portrait.
+
 ###Learning Python 5th edition [nov2013-]
    - ebook
 #####Chapter1-4
@@ -73,6 +76,19 @@
  - 2 or 3, 3 or 2, 2 and 3, 2 and []
  - ternary expression Z = A if Condition else B
  - while conditions: (...) else: (...) _# if no break was encountered_
+ - for _target_ in _object_: (...) else: (...) _# if no break was encountered_
+ - zip() or map(); keys = [], values = [] => `**D = dict(zip(keys, values))**`
+ - for (off, item) in enumerate('iterable'): ... 
+#####Chapter 14 - Iterators
+- iterator, any object which exposes \_\_next\_\_() and raises StopIteration at end of results
+	- iterator object (\_\_next\_\_) or iterable object(\_\_iter\_\_)
+	- files have their own iterators	
+- f = open(...), next(f) - will actually call f.\_\_next\_\_()
+- list comprehensions might run faster because they run using compiled C code, this is especially true for large sets
+- lines = [line.rstrip() for line in open('script.py')]
+	- len([line for line in open(fname) if line.strip() != ''])  show # of lines
+- similar to nested for loops: [x + y for x in 'abc' for y in 'lmn']
+- map itself is also an iterable, applying a function call to a list list(map(str.upper, open('script2.py')))
 	
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story
@@ -102,3 +118,11 @@ The "bible" of web usability in its second incarnation. A couple of ideas or rem
 ###The Lean Startup by [jan2013-may2013]
 + Going after a couple of ideas of what make a startup tick, and how can you avoid falling in the most common pitfals of the startup movement.
 + Talking about `validated learning' where all the steps you take are directed by input coming from the customers and not from the bussiness owners. A couple of examples presented like the IMVU service, the laundry in India, or Kodak photo share which all started with a basic product, and improving that by getting input from customers instead of having a plan before going to market.
+- MVP description and what’s it about. Always strive to keep the feature creep to a minimum and deliver to the early adopters, whom are people to prefer somewhat incomplete products just to gain the incentive of being first users - which might be an advantage to them or their company  by being first barch of users.
+- The leap-of-faith assumption refers to one thing that the startup assumes to be correct withou prior validation, but in which the MVP helps to make a sale.
+The Dropbox example where a “how does it work” video became the MVP that went through the features - sync made easy - but at the same time the leap-of-faith was the assumption that similar products where too difficult to use.
+- Food on the table story - “concierge” approach - one customer initially interacted directly with the founder in order to get an insight in building the product.
+- Use the so called ""Innovation accounting" for the startup as an accounting method
+
+##Understanding Search Engines
+Last 2chapters skim over HCI regarding the search engine “visible to the user part”. Last chapter has an index with all important references to articles/books presented throughout the book and can be an useful goto index.

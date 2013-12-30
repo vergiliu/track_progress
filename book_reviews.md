@@ -69,7 +69,7 @@ The author goes over some (non scientifically) proven concepts that one brain he
 #####Chapter 10-13
  - intro to indentation and some pythonic rules :)
  - try: except: clause
- - **print([object, ...][, sep=' '][, end='\n'][, file=sys.stdout][, flush=False])** for python3
+ - **print([object, ...][, sep=' '][, end='\n'][, file=sys.stdout][, flush=False])** for python3 
  - stream redirection (stdout, stderr), easiest is through assignment sys.stdout = open('file', 'w')
  - ellipsis can be used instead of pass **def to_be_implemented(): ...**
      - valid only in python3
@@ -77,9 +77,9 @@ The author goes over some (non scientifically) proven concepts that one brain he
  - ternary expression Z = A if Condition else B
  - while conditions: (...) else: (...) _# if no break was encountered_
  - for _target_ in _object_: (...) else: (...) _# if no break was encountered_
- - zip() or map(); keys = [], values = [] => `**D = dict(zip(keys, values))**`
+ - zip() or map(); keys = [], values = [] => **`D = dict(zip(keys, values))`**
  - for (off, item) in enumerate('iterable'): ... 
-#####Chapter 14 - Iterators
+#####Chapter 14-17 - Iterators, Scope, ...
 - iterator, any object which exposes \_\_next\_\_() and raises StopIteration at end of results
 	- iterator object (\_\_next\_\_) or iterable object(\_\_iter\_\_)
 	- files have their own iterators	
@@ -89,6 +89,24 @@ The author goes over some (non scientifically) proven concepts that one brain he
 	- len([line for line in open(fname) if line.strip() != ''])  show # of lines
 - similar to nested for loops: [x + y for x in 'abc' for y in 'lmn']
 - map itself is also an iterable, applying a function call to a list list(map(str.upper, open('script2.py')))
+- sorted() returns a list, not an iterable
+- \*arg can be used to unpack values
+- keys, values, items, range, map, filter, zip return iterable
+- triple quoted strings can be accessed w/ \_\_doc\_\_, also existing modules documentation, i.e. sys.\_\_doc\_\_
+- help(function/object/module) also gives valuable information
+- online help can be served using the built-in server python -m pydoc
+- Scope: LEGB rule - local (import builtins), enclosing (comprehension), global, built-in
+	- namespace declarations: global, nonlocal; ie X = 1; def ...: global X, X=2
+- factory functions / closures ; lambda's
+- nonlocal - a name that can be changed in an enclosing scope
+#####Chapter 18 - Arguments
+- positional arguments matched from left to right
+- keywords matched using the parameters names
+- use \* or \*\* varargs to match any number of parameters as tuples (positional) or dictionaries (keyword)
+- if we have the following def f(a, \*pargs, \*\*kargs): print(a, pargs, kargs)
+- then calling f(1, 2, 3, x=1, y=2) will result in  1 (2, 3) {'y': 2, 'x': 1}
+- similarly `def kwonly(a, *, b, c='spam'): print(a, b, c)` will work for kwonly(1, b='eggs') => 1 eggs spam but not for _kwonly(1, c='eggs')_ => TypeError: kwonly() missing 1 required keyword-only argument: 'b'
+	
 	
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story

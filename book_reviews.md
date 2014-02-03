@@ -96,7 +96,7 @@ The author goes over some (non scientifically) proven concepts that one brain he
 - help(function/object/module) also gives valuable information
 - online help can be served using the built-in server python -m pydoc
 - Scope: LEGB rule - local (import builtins), enclosing (comprehension), global, built-in
-	- namespace declarations: global, nonlocal; ie X = 1; def ...: global X, X=2
+    - namespace declarations: global, nonlocal; ie X = 1; def ...: global X, X=2
 - factory functions / closures ; lambda's
 - nonlocal - a name that can be changed in an enclosing scope
 #####Chapter 18 - Arguments
@@ -106,8 +106,18 @@ The author goes over some (non scientifically) proven concepts that one brain he
 - if we have the following def f(a, \*pargs, \*\*kargs): print(a, pargs, kargs)
 - then calling f(1, 2, 3, x=1, y=2) will result in  1 (2, 3) {'y': 2, 'x': 1}
 - similarly `def kwonly(a, *, b, c='spam'): print(a, b, c)` will work for kwonly(1, b='eggs') => 1 eggs spam but not for _kwonly(1, c='eggs')_ => TypeError: kwonly() missing 1 required keyword-only argument: 'b'
-	
-	
+- sys.getrecursionlimit() to get/set higher limits for stack
+- functions can have annotations in Python3
+- anonymous functions (lambdas): no ifs are allowed, local scope for variables
+    - remember the scoped LEGB rule, the same applies for lambdas
+    - f = lambda x, y, z: x + y + z
+- functional programming: map, filter, reduce
+    - apply function to an iterable - map - map(my_function, list)
+    - i.e. list(map(pow, [10,10,10], [2,3,4]))
+    - selecting items in iterables - filtering - list(filter((lambda x: x>0), [3, 5, -1, 9, -9, -100]))
+    - reduce - returning an element after scanning an iterable: reduce((lambda x, y: x * y), [1, 2, 3, 4]) => 24 
+- 
+
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story
 involving a deadly gas, drugs, leather and a cloudy and misty atmosphere. 

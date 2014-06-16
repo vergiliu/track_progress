@@ -56,7 +56,7 @@ The author goes over some (non scientifically) proven concepts that one brain he
 #####Chapter 9 - tuples, files, ...
 - tuple: ordered collections of elements, immutable, accessed by offset, can be seen as arrays of object references
     - the objects contained in tuples can be changed
-    - namedtuples in collections module: 
+    - namedtuples in collections module:
     	- Object = namedtuple('Name', ['structure', 'field'])
     	- instance = Object('Bob', 11.23)
 - Files are buffered, we need to call flush or close to make sure everything is persisted
@@ -69,7 +69,7 @@ The author goes over some (non scientifically) proven concepts that one brain he
 #####Chapter 10-13
  - intro to indentation and some pythonic rules :)
  - try: except: clause
- - **print([object, ...][, sep=' '][, end='\n'][, file=sys.stdout][, flush=False])** for python3 
+ - **print([object, ...][, sep=' '][, end='\n'][, file=sys.stdout][, flush=False])** for python3
  - stream redirection (stdout, stderr), easiest is through assignment sys.stdout = open('file', 'w')
  - ellipsis can be used instead of pass **def to_be_implemented(): ...**
      - valid only in python3
@@ -78,11 +78,11 @@ The author goes over some (non scientifically) proven concepts that one brain he
  - while conditions: (...) else: (...) _# if no break was encountered_
  - for _target_ in _object_: (...) else: (...) _# if no break was encountered_
  - zip() or map(); keys = [], values = [] => **`D = dict(zip(keys, values))`**
- - for (off, item) in enumerate('iterable'): ... 
+ - for (off, item) in enumerate('iterable'): ...
 #####Chapter 14-17 - Iterators, Scope, ...
 - iterator, any object which exposes \_\_next\_\_() and raises StopIteration at end of results
 	- iterator object (\_\_next\_\_) or iterable object(\_\_iter\_\_)
-	- files have their own iterators	
+	- files have their own iterators
 - f = open(...), next(f) - will actually call f.\_\_next\_\_()
 - list comprehensions might run faster because they run using compiled C code, this is especially true for large sets
 - lines = [line.rstrip() for line in open('script.py')]
@@ -115,13 +115,18 @@ The author goes over some (non scientifically) proven concepts that one brain he
     - apply function to an iterable - map - map(my_function, list)
     - i.e. list(map(pow, [10,10,10], [2,3,4]))
     - selecting items in iterables - filtering - list(filter((lambda x: x>0), [3, 5, -1, 9, -9, -100]))
-    - reduce - returning an element after scanning an iterable: reduce((lambda x, y: x * y), [1, 2, 3, 4]) => 24 
-- 
+    - reduce - returning an element after scanning an iterable: reduce((lambda x, y: x * y), [1, 2, 3, 4]) => 24
+- list comprehension collect the result of applying an expression to an iterable, and return a list i.e. `res = [ord(x) for x in 'spam']
+  - sometimes map or list comprehension are better suited for the task-at-hand, for simple scenarios, you can get either of them quite straightforward
+  - as in Python3 file is iterable [line.rstrip() for line in open('file')] == list(map(lambda line: line.rstrip(), open('file')))
+- the _timeit_ module used for time length statistics of function calls, pystones
+#####Chapter 22 - Modules
+
 
 ###Boneshaker by Christie Priest [aug2012-oct2012]
 In an approximate version of the Seattle gold rush, a true steampunk story
-involving a deadly gas, drugs, leather and a cloudy and misty atmosphere. 
-Did I mention zombies? Or airships powered by steam? 
+involving a deadly gas, drugs, leather and a cloudy and misty atmosphere.
+Did I mention zombies? Or airships powered by steam?
 Overall a nice and short read with a good story. Rating 4/5
 
 ###Don't Make Me Think by Steve Krug [oct2012]
@@ -131,7 +136,7 @@ The "bible" of web usability in its second incarnation. A couple of ideas or rem
 + Build billboards not newspapers
 + Make stuff visible and easy to determine what's its function to the user
 + "Get rid of half the words on each page, then get rid of what's left"
-+ Home page is really an important starting point in the design, although everybody wants to have its saying about it. 
++ Home page is really an important starting point in the design, although everybody wants to have its saying about it.
 + make clear what's the mission of the site, easily done through displaying a tagline (5-8 words)
 + make sure the home page conveys just the main objective of the site and not an in-depth review of what the site does
 + have a clear separation of the main tagline, categories, description, search and others
@@ -140,7 +145,7 @@ The "bible" of web usability in its second incarnation. A couple of ideas or rem
 + testing some parts by even 1 user is better than no testing at all
 + focus groups help establishing the target user group of the site before the design phase starts
 + try to involve different people from different teams in order to get more traction and involvement during the (usability) testing
-+ ask the tester to do some specific tasks besides 
++ ask the tester to do some specific tasks besides
 + After the walkthroughs review/go over the notes as soon as possible
 
 ###The Lean Startup by [jan2013-may2013]

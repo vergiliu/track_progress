@@ -120,7 +120,12 @@ The author goes over some (non scientifically) proven concepts that one brain he
   - sometimes map or list comprehension are better suited for the task-at-hand, for simple scenarios, you can get either of them quite straightforward
   - as in Python3 file is iterable [line.rstrip() for line in open('file')] == list(map(lambda line: line.rstrip(), open('file')))
 - the _timeit_ module used for time length statistics of function calls, pystones
-#####Chapter 22 - Modules
+#####Chapter 22-23 - Modules
+- modules are imported only once per session, so in interactive mode you need to use `reload` instead of just calling import again
+- prefer `import` over `from`, when working with modules but no strong preference is given to import
+- `import as` can be used in order to rename modules or to avoid name conflicts
+- namespace nesting works down (mod1 imports mod2 which imports module3) but not upwards, so module3 can't access mod2 or mod1
+
 
 
 ###Boneshaker by Christie Priest [aug2012-oct2012]

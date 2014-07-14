@@ -1,5 +1,3 @@
-##Drawing on the right side of the brain[2013-]
-The author goes over some (non scientifically) proven concepts that one brain hemisphere is dedicated to different things LEFT for science and the RIGHT for arts. And as an intro makes you do your portrait.
 
 ###Learning Python 5th edition [nov2013-]
    - ebook
@@ -120,11 +118,19 @@ The author goes over some (non scientifically) proven concepts that one brain he
   - sometimes map or list comprehension are better suited for the task-at-hand, for simple scenarios, you can get either of them quite straightforward
   - as in Python3 file is iterable [line.rstrip() for line in open('file')] == list(map(lambda line: line.rstrip(), open('file')))
 - the _timeit_ module used for time length statistics of function calls, pystones
-#####Chapter 22-23 - Modules
+#####Chapter 22-24 - Modules/Packages
 - modules are imported only once per session, so in interactive mode you need to use `reload` instead of just calling import again
+- we can use .pth files to define other paths where Python can search for modules
 - prefer `import` over `from`, when working with modules but no strong preference is given to import
 - `import as` can be used in order to rename modules or to avoid name conflicts
 - namespace nesting works down (mod1 imports mod2 which imports module3) but not upwards, so module3 can't access mod2 or mod1
+- reload is imp.reload in Python3; a module must be imported first, before we can reload it
+    - using from is not affected by reloads, so we must use import if we want to use reload
+- each module folder must contain an `__init__.py` file and the code within this file is executed automatically on import
+    - \_\_all\_\_ lists inside the files define what modules are imported on `from *` statements
+    - `from A import b` will make it easier in the future if refactoring is needed where as import is a bit more cumbersome to update
+    - `import A as B` addresses this issue and also makes it easier for future adjustments
+- we will need to use _import_ and not _from_ only if we want to use the same property across modules and then we will need to specify the full path to the object
 
 
 
@@ -164,3 +170,6 @@ The Dropbox example where a “how does it work” video became the MVP that wen
 
 ##Understanding Search Engines
 Last 2chapters skim over HCI regarding the search engine “visible to the user part”. Last chapter has an index with all important references to articles/books presented throughout the book and can be an useful goto index.
+
+##Drawing on the right side of the brain[2013-]
+The author goes over some (non scientifically) proven concepts that one brain hemisphere is dedicated to different things LEFT for science and the RIGHT for arts. And as an intro makes you do your portrait.

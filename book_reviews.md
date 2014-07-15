@@ -118,7 +118,7 @@
   - sometimes map or list comprehension are better suited for the task-at-hand, for simple scenarios, you can get either of them quite straightforward
   - as in Python3 file is iterable [line.rstrip() for line in open('file')] == list(map(lambda line: line.rstrip(), open('file')))
 - the _timeit_ module used for time length statistics of function calls, pystones
-#####Chapter 22-24 - Modules/Packages
+#####Chapter 22-25 - Modules/Packages/Advanced Modules
 - modules are imported only once per session, so in interactive mode you need to use `reload` instead of just calling import again
 - we can use .pth files to define other paths where Python can search for modules
 - prefer `import` over `from`, when working with modules but no strong preference is given to import
@@ -131,7 +131,17 @@
     - `from A import b` will make it easier in the future if refactoring is needed where as import is a bit more cumbersome to update
     - `import A as B` addresses this issue and also makes it easier for future adjustments
 - we will need to use _import_ and not _from_ only if we want to use the same property across modules and then we will need to specify the full path to the object
-
+    - relative imports, specific to Python 3.x only apply to from imports and only to the interpackage imports starting with . or ..
+    - in Python 3.x from A import B are always absolute imports
+- types of imports for Python 3.3+
+    - basic module imports: import MOD, from MOD import ATTR
+    - package imports: import dir1.dir2.MOD, from dir1.MOD import ATTR
+    - package relative imports: from . import MOD (relative), import MOD (absolute)
+    - namespace packages: import splitdir.MOD
+- we can hide some of the names for `from` by using either \_\_all\_\_ or _Underscore for declarations
+- future imports backported to previous versions can make use of the \_\_future\_\_ feature
+- use \_\_name\_\_ to be able to import or use as a module a certain file
+    - we could also use this feature for (unit) testing the module
 
 
 ###Boneshaker by Christie Priest [aug2012-oct2012]
